@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(10, 7, 22);
+}
+
+h1 {
+  position: relative;
+  top: 17%;
+  font-family: "Russo One", sans-serif;
+  color: rgb(250, 235, 215);
+  letter-spacing: 8px;
+}
+
+.watch {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 30%;
+  height: 16rem;
+  width: 40rem;
+  border: double 9px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, rgb(212, 123, 185), #3020ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.time {
+  font-size: 6em;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.6em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container2 {
+  margin: 0;
+  padding: 2em 1em;
+  position: relative;
+  bottom: 25%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  width: 35rem;
+  /* background-color: cadetblue; */
+}
+
+.button {
+  font-size: 2em;
+  width: 5em;
+  height: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(40, 40, 75);
+  color: antiquewhite;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  /* outline: none; */
+  border: 4px solid black;
+}
+
+button:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.13);
+  cursor: pointer;
+}
+.start {
+  background-color: #069c2c;
+}
+.stop {
+  background-color: #e70d18;
+}
+.reset {
+  background-color: #3020ff;
+}
